@@ -1,0 +1,10 @@
+begin
+ character mapel,nis
+ numeric nilai
+ display "Masukan Mata Pelajaran : "
+ accept mapel
+ display "Masukan nis : "
+ accept nis
+ dispaly "Masukan nilai : "
+ accept nilai
+end

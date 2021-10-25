@@ -1,0 +1,29 @@
+pAdmin
+  display "Welcome Admin !"
+  display "menu : "
+  display "1. admin"
+  display "2. siswa"
+  display "3. nilai"
+  procedure menuAdmin,menuSiswa,menuNilai
+  numeric pilihan
+  switch(pilihan)
+  begin 
+  case 1 : 
+   begin
+    call menuAdmin
+    break
+   end
+  case 2 :
+   begin
+    call menuSiswa
+    break
+   end
+  case 3 :
+   begin
+    call menuNilai
+    break
+   end
+  default : 
+   begin
+    display "Input correctly"
+   end

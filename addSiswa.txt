@@ -1,0 +1,8 @@
+siswa
+ character nis,nama,kelas
+ display "Masukan Nis"
+ accept nis
+ display "Masukan Nama"
+ accept nama
+ display "Masukan Kelas"
+ accept kelas

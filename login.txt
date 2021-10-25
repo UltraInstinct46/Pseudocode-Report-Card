@@ -1,0 +1,22 @@
+//login
+begin
+  character username,password
+  Procedure homeAdmin, homeGuru
+  display "Masukan Username"
+  accept username
+  display "Masukan Password"
+  accept password
+
+  if(username=="admin" AND password=="Admin")
+  begin
+    call homeAdmin
+  end
+  else if(username=="guru" AND password=="Guru")
+    begin
+    call homeGuru
+    end 
+  else
+    begin
+    display "username/password salah"
+    end
+end

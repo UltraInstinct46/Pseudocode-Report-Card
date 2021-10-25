@@ -1,0 +1,29 @@
+pAdmin
+  display "Welcome to Nilai Page !"
+  display "menu : "
+  display "1. add Nilai"
+  display "2. edit Nilai"
+  display "3. delete Nilai"
+  procedure addNilai, editNilai, deleteNilai
+  numeric pilihan
+  switch(pilihan)
+  begin 
+  case 1 : 
+   begin
+    call addNilai
+    break
+   end
+  case 2 :
+   begin
+    call editNilai
+    break
+   end
+  case 3 :
+   begin
+    call deleteNilai
+    break
+   end
+  default : 
+   begin
+    display "Input correctly"
+   end
