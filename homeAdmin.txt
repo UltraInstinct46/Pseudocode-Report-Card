@@ -1,12 +1,13 @@
 pAdmin
-  display "Welcome Admin !"
+
+  procedure menuAdmin,menuSiswa,menuNilai
+  numeric pilihan
+  switch(pilihan)
+    display "Welcome Admin !"
   display "menu : "
   display "1. admin"
   display "2. siswa"
   display "3. nilai"
-  procedure menuAdmin,menuSiswa,menuNilai
-  numeric pilihan
-  switch(pilihan)
   begin 
   case 1 : 
    begin
