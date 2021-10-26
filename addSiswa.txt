@@ -1,4 +1,5 @@
-siswa
+addSiswa
+begin
  character nis,nama,kelas
  display "Masukan Nis"
  accept nis
@@ -6,3 +7,4 @@ siswa
  accept nama
  display "Masukan Kelas"
  accept kelas
+end

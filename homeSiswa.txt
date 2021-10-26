@@ -1,4 +1,5 @@
 pAdmin
+ begin
   display "Welcome to Siswa Page !"
   display "menu : "
   display "1. add Siswa"
@@ -27,3 +28,4 @@ pAdmin
    begin
     display "Input correctly"
    end
+end

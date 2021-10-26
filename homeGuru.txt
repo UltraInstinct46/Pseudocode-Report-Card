@@ -1,4 +1,5 @@
 pAdmin
+begin
   display "Welcome Guru !"
   display "menu : "
   display "1. siswa"
@@ -21,4 +22,4 @@ pAdmin
    begin
     display "Input correctly"
    end
-   
+end

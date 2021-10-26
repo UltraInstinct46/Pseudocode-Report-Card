@@ -1,5 +1,5 @@
 pAdmin
-
+begin
   procedure menuAdmin,menuSiswa,menuNilai
   numeric pilihan
   switch(pilihan)
@@ -28,3 +28,4 @@ pAdmin
    begin
     display "Input correctly"
    end
+end

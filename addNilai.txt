@@ -1,10 +1,13 @@
+addNilai
 begin
- character mapel,nis
+ character mapel,nis, idNilai
  numeric nilai
+  display "Masukan ID Nilai : "
+ accept idNilai
  display "Masukan Mata Pelajaran : "
  accept mapel
  display "Masukan nis : "
  accept nis
- dispaly "Masukan nilai : "
+ display "Masukan nilai : "
  accept nilai
 end

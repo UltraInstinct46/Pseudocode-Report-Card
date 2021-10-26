@@ -1,0 +1,42 @@
+editAdmin
+begin
+ //data dummy
+ character username[3], password[3], roles[3], 
+ numeric i = 0, x = 0, pilihan
+ display "Masukan data yang akan diedit : "
+ while(i < 3)
+ begin
+  display i + 1 + username[i]
+ end
+ switch(pilihan)
+ begin
+  case 1 : 
+  begin
+   display "Masukan password yang akan diubah: "
+   accept password[0]
+   display "Masukan roles yang akan diubah: "
+   accept roles[0]
+   break
+  end
+  case 2 : 
+  begin
+   display "Masukan password yang akan diubah: "
+   accept password[1]
+   display "Masukan roles yang akan diubah: "
+   accept roles[1]
+   break
+  end
+  case 3 : 
+  begin
+   display "Masukan password yang akan diubah: "
+   accept password[2]
+   display "Masukan roles yang akan diubah: "
+   accept roles[2]
+   break
+  end
+  default :
+  begin
+  display "yang anda inputkan salah"
+  end
+ end
+end
