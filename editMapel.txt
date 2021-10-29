@@ -1,0 +1,36 @@
+editSiswa
+begin
+ //data dummy
+ character idMapel[3], mapel[3] 
+ numeric i = 0, x = 0, pilihan
+ display "Masukan data yang akan diedit : "
+ while(i < 3)
+ begin
+  display i + 1 + idMapel[i]
+ end
+ switch(pilihan)
+ begin
+  case 1 : 
+  begin
+   display "Masukan nama yang akan diubah: "
+   accept mapel[0]
+   break
+  end
+  case 2 : 
+  begin
+   display "Masukan nama yang akan diubah: "
+   accept mapel[1]
+
+   break
+  end
+  case 3 : 
+  begin
+   display "Masukan nama yang akan diubah: "
+   accept mapel[2]
+  end
+  default :
+  begin
+  display "yang anda inputkan salah"
+  end
+ end
+end

@@ -1,27 +1,27 @@
-homeNilai
-begin
-  display "Welcome to Nilai Page !"
+homeMapel
+ begin
+  display "Welcome to Mapel Page !"
   display "menu : "
-  display "1. add Nilai"
-  display "2. edit Nilai"
-  display "3. delete Nilai"
-  procedure addNilai, editNilai, deleteNilai
+  display "1. add Mapel"
+  display "2. edit Mapel"
+  display "3. delete Mapel"
+  procedure addMapel, editMapel, deleteMapel
   numeric pilihan
   switch(pilihan)
   begin 
   case 1 : 
    begin
-    call addNilai
+    call addMapel
     break
    end
   case 2 :
    begin
-    call editNilai
+    call editMapel
     break
    end
   case 3 :
    begin
-    call deleteNilai
+    call deleteMapel
     break
    end
   default : 

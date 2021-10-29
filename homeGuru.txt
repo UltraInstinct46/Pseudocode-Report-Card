@@ -1,4 +1,4 @@
-pAdmin
+homeGuru
 begin
   display "Welcome Guru !"
   display "menu : "

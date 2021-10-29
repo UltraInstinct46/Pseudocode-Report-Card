@@ -1,4 +1,4 @@
-pAdmin
+homeAdmin
  begin
   display "Welcome to Siswa Page !"
   display "menu : "

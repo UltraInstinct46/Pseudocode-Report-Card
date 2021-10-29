@@ -1,4 +1,4 @@
-pAdmin
+homeAdmin
 begin
   procedure menuAdmin,menuSiswa,menuNilai
   numeric pilihan
