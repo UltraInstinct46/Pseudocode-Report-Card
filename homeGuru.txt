@@ -1,10 +1,11 @@
 homeGuru
-  procedure menuSiswa,menuNilai
+  procedure menuSiswa,menuNilai,print
   numeric pilihanbegin
   display "Welcome Guru !"
   display "menu : "
   display "1. siswa"
   display "2. nilai"
+  display "3. print raport"
   switch(pilihan)
   begin 
   case 1 : 
@@ -15,6 +16,11 @@ homeGuru
   case 2 :
    begin
     call menuNilai
+    break
+   end
+   case 3 :
+   begin
+    call print
     break
    end
   default : 
