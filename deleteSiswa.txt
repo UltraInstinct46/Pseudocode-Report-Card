@@ -12,16 +12,19 @@ begin
  begin
   case 1 : 
   begin
+   idNilai[pilihan-1] = ""
    display "data berhasil dihapus"
    break
   end
   case 2 : 
   begin
+   idNilai[pilihan-1] = ""
    display "data berhasil dihapus"
    break
   end
   case 3 : 
   begin
+   idNilai[pilihan-1] = ""
    display "data berhasil dihapus"
    break
   end
