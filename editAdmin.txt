@@ -16,6 +16,7 @@ begin
    accept password[0]
    display "Masukan roles yang akan diubah: "
    accept roles[0]
+   display "data berhasil diubah"
    break
   end
   case 2 : 
@@ -24,6 +25,7 @@ begin
    accept password[1]
    display "Masukan roles yang akan diubah: "
    accept roles[1]
+   display "data berhasil diubah"
    break
   end
   case 3 : 
@@ -32,6 +34,7 @@ begin
    accept password[2]
    display "Masukan roles yang akan diubah: "
    accept roles[2]
+   display "data berhasil diubah"
    break
   end
   default :

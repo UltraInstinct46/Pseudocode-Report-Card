@@ -16,6 +16,7 @@ begin
    accept nama[0]
    display "Masukan kelas yang akan diubah: "
    accept kelas[0]
+   display "data berhasil diubah"
    break
   end
   case 2 : 
@@ -24,6 +25,7 @@ begin
    accept nama[1]
    display "Masukan kelas yang akan diubah: "
    accept kelas[1]
+   display "data berhasil diubah"
    break
   end
   case 3 : 
@@ -32,6 +34,7 @@ begin
    accept nama[2]
    display "Masukan kelas yang akan diubah: "
    accept kelas[2]
+   display "data berhasil diubah"
    break
   end
   default :

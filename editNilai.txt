@@ -16,6 +16,7 @@ begin
    accept mapel[0]
    display "Masukan nilai yang akan diubah: "
    accept nilai[0]
+   display "data berhasil diubah"
    break
   end
   case 2 : 
@@ -24,6 +25,7 @@ begin
    accept mapel[1]
    display "Masukan nilai yang akan diubah: "
    accept nilai[1]
+   display "data berhasil diubah"
    break
   end
   case 3 : 
@@ -32,6 +34,7 @@ begin
    accept mapel[2]
    display "Masukan nilai yang akan diubah: "
    accept nilai[2]
+   display "data berhasil diubah"
    break
   end
   default :

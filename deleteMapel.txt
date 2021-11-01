@@ -12,16 +12,19 @@ begin
  begin
   case 1 : 
   begin
+   idMapel[pilihan-1] = ""
    display "data berhasil dihapus"
    break
   end
   case 2 : 
   begin
+   idMapel[pilihan-1] = ""
    display "data berhasil dihapus"
    break
   end
   case 3 : 
   begin
+   idMapel[pilihan-1] = ""
    display "data berhasil dihapus"
    break
   end

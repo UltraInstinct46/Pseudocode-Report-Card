@@ -14,19 +14,21 @@ begin
   begin
    display "Masukan nama yang akan diubah: "
    accept mapel[0]
+   display "data berhasil diubah"
    break
   end
   case 2 : 
   begin
    display "Masukan nama yang akan diubah: "
    accept mapel[1]
-
+   display "data berhasil diubah"
    break
   end
   case 3 : 
   begin
    display "Masukan nama yang akan diubah: "
    accept mapel[2]
+   display "data berhasil diubah"
   end
   default :
   begin
