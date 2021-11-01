@@ -1,21 +1,20 @@
 homeGuru
-begin
+  procedure menuSiswa,menuNilai
+  numeric pilihanbegin
   display "Welcome Guru !"
   display "menu : "
   display "1. siswa"
   display "2. nilai"
-  procedure siswa,nilai
-  numeric pilihan
   switch(pilihan)
   begin 
   case 1 : 
    begin
-    call siswa
+    call menuSiswa
     break
    end
   case 2 :
    begin
-    call nilai
+    call menuNilai
     break
    end
   default : 

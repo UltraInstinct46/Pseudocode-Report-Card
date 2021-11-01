@@ -1,0 +1,31 @@
+homeAdmin
+ begin
+  display "Welcome to Account Page !"
+  display "menu : "
+  display "1. add Admin"
+  display "2. edit Admin"
+  display "3. delete Admin"
+  procedure addAdmin, editAdmin, deleteAdmin
+  numeric pilihan
+  switch(pilihan)
+  begin 
+  case 1 : 
+   begin
+    call addAdmin
+    break
+   end
+  case 2 :
+   begin
+    call editAdmin
+    break
+   end
+  case 3 :
+   begin
+    call deleteAdmin
+    break
+   end
+  default : 
+   begin
+    display "Input correctly"
+   end
+end
