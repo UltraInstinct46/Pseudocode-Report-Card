@@ -1,8 +1,7 @@
+procedure menuAdmin,menuSiswa,menuNilai,menuMapel,print
 homeAdmin
 begin
-  procedure menuAdmin,menuSiswa,menuNilai,menuMapel,print
   numeric pilihan
-  switch(pilihan)
     display "Welcome Admin !"
   display "menu : "
   display "1. admin"
@@ -10,6 +9,9 @@ begin
   display "3. nilai"
   display "4. mapel"
   display "5. print raport"
+  display "Masukan No : "
+  accept pilihan
+  switch(pilihan)
   begin 
   case 1 : 
    begin

@@ -1,5 +1,5 @@
+procedure menuSiswa,menuNilai,print
 homeGuru
-  procedure menuSiswa,menuNilai,print
   numeric pilihanbegin
   display "Welcome Guru !"
   display "menu : "

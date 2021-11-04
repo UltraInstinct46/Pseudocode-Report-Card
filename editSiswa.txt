@@ -8,6 +8,7 @@ begin
  begin
   display i + 1 + nama[i]
  end
+ accept pilihan
  switch(pilihan)
  begin
   case 1 : 

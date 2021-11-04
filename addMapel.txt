@@ -2,7 +2,7 @@ addSiswa
 begin
  character idMapel,Mapel
  display "Masukan ID Mapel"
- accept nis
+ accept idMapel
  display "Masukan Mata Pelajaran"
- accept nama
+ accept Mapel
 end
