@@ -8,6 +8,8 @@ begin
  begin
   display i + 1 + nis[i]
  end
+ display "Masukan Angka : "
+ accept pilihan
  switch(pilihan)
  begin
   case 1 : 
