@@ -1,7 +1,5 @@
 editSiswa
 begin
- //data dummy
- character idMapel[3], mapel[3] 
  numeric i = 0, x = 0, pilihan
  display "Masukan data yang akan diedit : "
  while(i < 3)

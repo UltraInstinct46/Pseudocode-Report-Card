@@ -1,6 +1,6 @@
+ character nis[3],nama[3],kelas[3]
 addSiswa
 begin
- character nis,nama,kelas
  display "Masukan Nis"
  accept nis
  display "Masukan Nama"

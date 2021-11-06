@@ -1,7 +1,5 @@
 editSiswa
 begin
- //data dummy
- character nis[3], nama[3], kelas[3], 
  numeric i = 0, x = 0, pilihan
  display "Masukan data yang akan diedit : "
  while(i < 3)

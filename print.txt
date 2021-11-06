@@ -1,7 +1,5 @@
 print
 begin
- //data dummy
- character nis[3],nama[3],mapel[3],nilai[3]
  numeric i = 0, x = 0, pilihan
  display "Masukan raport yang akan diprint : "
  while(i < 3)

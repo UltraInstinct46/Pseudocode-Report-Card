@@ -1,17 +1,16 @@
 //login
 begin
-  character username,password
   Procedure homeAdmin, homeGuru
   display "Masukan Username"
   accept username
   display "Masukan Password"
   accept password
 
-  if(username=="admin" AND password=="Admin")
+  if(username[1]=="admin" AND password[1]=="Admin")
   begin
     call homeAdmin
   end
-  else if(username=="guru" AND password=="Guru")
+  else if(username[1]=="guru" AND password[1]=="Guru")
     begin
     call homeGuru
     end 

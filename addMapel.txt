@@ -1,6 +1,6 @@
+ character idMapel[3],Mapel[3]
 addSiswa
 begin
- character idMapel,Mapel
  display "Masukan ID Mapel"
  accept idMapel
  display "Masukan Mata Pelajaran"

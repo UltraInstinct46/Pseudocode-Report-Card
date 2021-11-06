@@ -1,7 +1,5 @@
 editNilai
 begin
- //data dummy
- character mapel[3], nis[3], 
  numeric i = 0, x = 0, pilihan, nilai[3]
  display "Masukan data yang akan diedit : "
  while(i < 3)

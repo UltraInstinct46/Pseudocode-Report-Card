@@ -1,10 +1,10 @@
+ character username[3],password[3],roles[3]
 addAdmin
 begin
- character username,password,roles
  display "Masukan Username : "
- accept username
+ accept username[1]
  display "Masukan password : "
- accept password
+ accept password[1]
  display "Masukan Roles : "
- accept roles
+ accept roles[1]
 end

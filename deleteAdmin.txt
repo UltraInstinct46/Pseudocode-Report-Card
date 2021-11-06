@@ -1,7 +1,5 @@
 deletetAdmin
 begin
- //data dummy
- character username[3]
  numeric i = 0, x = 0, pilihan
  display "Masukan data yang akan dihapus : "
  while(i < 3)
