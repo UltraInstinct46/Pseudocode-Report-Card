@@ -1,4 +1,3 @@
- character nis[3],nama[3],kelas[3]
 addSiswa
 begin
  display "Masukan Nis"

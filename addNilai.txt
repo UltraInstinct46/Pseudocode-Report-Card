@@ -1,4 +1,3 @@
-character idNilai[3]
 addNilai
 begin
  numeric nilai

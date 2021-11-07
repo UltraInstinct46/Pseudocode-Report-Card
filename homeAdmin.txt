@@ -1,4 +1,3 @@
-procedure menuAdmin,menuSiswa,menuNilai,menuMapel,print
 homeAdmin
 begin
   numeric pilihan

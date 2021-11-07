@@ -1,4 +1,3 @@
-procedure menuSiswa,menuNilai,print
 homeGuru
   numeric pilihanbegin
   display "Welcome Guru !"

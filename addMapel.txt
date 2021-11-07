@@ -1,4 +1,3 @@
- character idMapel[3],Mapel[3]
 addSiswa
 begin
  display "Masukan ID Mapel"
