@@ -4,6 +4,11 @@
  character nis[3],nama[3],kelas[3]
  procedure login, menuAdmin,menuSiswa,menuNilai,menuMapel,print
  procedure menuSiswa,menuNilai,print
+ procedure addAdmin, editAdmin, deleteAdmin
+ procedure addMapel, editMapel, deleteMapel
+ procedure addNilai, editNilai, deleteNilai
+ procedure addSiswa, editSiswa, deleteSiswa
+ Procedure homeAdmin, homeGuru
 
 begin
  call login

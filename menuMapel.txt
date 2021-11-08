@@ -5,7 +5,6 @@ homeMapel
   display "1. add Mapel"
   display "2. edit Mapel"
   display "3. delete Mapel"
-  procedure addMapel, editMapel, deleteMapel
   numeric pilihan
   switch(pilihan)
   begin 

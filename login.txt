@@ -1,6 +1,5 @@
 //login
 begin
-  Procedure homeAdmin, homeGuru
   display "Masukan Username"
   accept username
   display "Masukan Password"
