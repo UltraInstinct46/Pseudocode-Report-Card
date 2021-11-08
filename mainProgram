@@ -9,6 +9,7 @@
  character idMapel[3],Mapel[3]
  character idNilai[3]
  character nis[3],nama[3],kelas[3]
+ numeric nilai
 
 
 begin

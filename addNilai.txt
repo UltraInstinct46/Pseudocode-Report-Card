@@ -1,7 +1,6 @@
 addNilai
 begin
- numeric nilai
-  display "Masukan ID Nilai : "
+ display "Masukan ID Nilai : "
  accept idNilai
  display "Masukan Mata Pelajaran : "
  accept Mapel
