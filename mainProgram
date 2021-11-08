@@ -1,7 +1,3 @@
- character username[3],password[3],roles[3]
- character idMapel[3],Mapel[3]
- character idNilai[3]
- character nis[3],nama[3],kelas[3]
  procedure login, menuAdmin,menuSiswa,menuNilai,menuMapel,print
  procedure menuSiswa,menuNilai,print
  procedure addAdmin, editAdmin, deleteAdmin
@@ -9,6 +5,11 @@
  procedure addNilai, editNilai, deleteNilai
  procedure addSiswa, editSiswa, deleteSiswa
  Procedure homeAdmin, homeGuru
+ character username[3],password[3],roles[3]
+ character idMapel[3],Mapel[3]
+ character idNilai[3]
+ character nis[3],nama[3],kelas[3]
+
 
 begin
  call login
