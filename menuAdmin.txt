@@ -5,7 +5,6 @@ homeAdmin
   display "1. add Admin"
   display "2. edit Admin"
   display "3. delete Admin"
-  numeric pilihan
   switch(pilihan)
   begin 
   case 1 : 

@@ -5,7 +5,6 @@ homeAdmin
   display "1. add Siswa"
   display "2. edit Siswa"
   display "3. delete Siswa"
-  numeric pilihan
   switch(pilihan)
   begin 
   case 1 : 

@@ -5,7 +5,6 @@ begin
   display "1. add Nilai"
   display "2. edit Nilai"
   display "3. delete Nilai"
-  numeric pilihan
   switch(pilihan)
   begin 
   case 1 : 
