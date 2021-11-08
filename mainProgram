@@ -4,7 +4,7 @@
  procedure addMapel, editMapel, deleteMapel
  procedure addNilai, editNilai, deleteNilai
  procedure addSiswa, editSiswa, deleteSiswa
- Procedure homeAdmin, homeGuru
+ Procedure homeAdmin, homeGuru, homeMenu
  character username[3],password[3],roles[3]
  character idMapel[3],Mapel[3]
  character idNilai[3]
@@ -12,5 +12,7 @@
 
 
 begin
+ display "Welcome to Student Report Card System"
  call login
+ display "Thank You for letting us to help you"
 end
